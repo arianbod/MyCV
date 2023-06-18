@@ -14,7 +14,7 @@ const CV = () => {
   return (
     <div>
       <Header />
-      <Summary />
+      {/* <Summary /> */}
       {/* <Skills />
       <WorkHistory />
       <Education />

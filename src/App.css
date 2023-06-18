@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.profilePhoto{
+  border-radius: 1000px;
+}
+*{max-width: 100%;}
+header h1 {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;   
+}
+
+header .header-3{
+  background-image: repeating-radial-gradient(circle farthest-side at 5px 10px,#553c9a 10%, #ee4b2b 30%, #553c9a);
+}
