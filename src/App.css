@@ -54,3 +54,5 @@ header h1 {
 header .header-3{
   background-image: repeating-radial-gradient(circle farthest-side at 5px 10px,#553c9a 10%, #ee4b2b 30%, #553c9a);
 }
+.btnred{background-color:red;}
+.btngreen{background-color:green;}
