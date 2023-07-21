@@ -48,7 +48,8 @@ header h1 {
   font-weight: 600;
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;   
+  background-clip: text;  
+  margin:0; 
 }
 
 header .header-3{

@@ -8,98 +8,144 @@
   },
   "ContactInformation": {
     "Phone": "",
-    "Email": "",
+    "Email": "arianbod@outlook.com",
     "SocialMedia": {
-      "LinkedIn": "",
-      "GitHub": "",
+      "LinkedIn": "https://linkedin.com/arianbod",
+      "Telegram": "https://t.me/arianbod",
+      "GitHub": "https://github.com/arianbod",
       "Twitter": "",
       "Instagram": ""
     }
   },
-  "WorkHistory": [
+  "Languages": [
     {
-      "Title": "SPA and Mobile Application for an Ethereum-Based Token",
-      "Employer": "Freelance",
-      "StartDate": "2023-01",
-      "EndDate": "2023-03",
-      "Description": "Utilized ReactJS for building the frontend user interface, providing a seamless and interactive experience on both web and mobile platforms.\nConfigured and deployed the application on an Ubuntu server, ensuring optimal performance and reliability.\nImplemented Nginx as a web server to handle incoming requests and serve the SPA website, while ensuring proper routing for the mobile application.\nSecured the website and mobile application with Certbot, enabling HTTPS encryption and safeguarding user data privacy.\nIntegrated Web3.js library to establish a connection with the Ethereum blockchain network.\nEnabled users to connect their wallets, such as MetaMask, to seamlessly interact with the token functionalities.\nImplemented features for buying, selling, staking, and unstaking the token through connected wallets.\nDesigned the user interface with CSS3 and Material UI, delivering a modern and visually appealing experience on both web and mobile platforms.",
-      "Technologies": ""
+      "Language": "English",
+      "Level": "Fluent",
+      "Certificate": "TOEFL",
+      "score": "95",
+      "reading": "",
+      "writing": "",
+      "speaking": "",
+      "listening": ""
     },
     {
-      "Title": "Smart Contract developer",
-      "Employer": "Freelance",
-      "StartDate": "2022-11",
-      "EndDate": "2023-03",
-      "Description": "Implemented Smart Contracts on ethereum, Binance Chain and Layer 2 Blockchains\nCollaborated with Marketing team to review application requirements, plan implementation details and estimate delivery timelines.\nWrote technical documentation to communicate key points to stakeholders.\nBuilt stable and secure systems to translate dense technical topics to stakeholders less versed with blockchain applications.\nImplemented, tested and audited open-source software to interact with on-chain smart contracts.\nLed projects and analyzed data to identify opportunities for improvement.",
-      "Technologies": ""
+      "Language": "Persian",
+      "Level": "Native",
+      "score": "",
+      "reading": "",
+      "writing": "",
+      "speaking": "",
+      "listening": ""
     },
     {
-      "Title": "Cryptocurrency Trader",
-      "Employer": "Private Customers",
-      "StartDate": "2021-08",
-      "EndDate": "2023-02",
-      "Description": "Compiled and analyzed data to determine approaches to improve performance.\nEducated and worked with clients on ROI terms to find accurate solutions.\nGenerated 250% in revenue by analyzing individual stock, coins and current market conditions in two years.\nPrepared contracts and related documentation according to strict standards.\nComputed total holdings, dividends or commissions to allocate appropriate payments to customers.\nStick Hardly on Risk Management with fewest possible drawdown",
-      "Technologies": ""
+      "Language": "Arabic",
+      "Level": "Beginner",
+      "Certificate": "",
+      "score": "",
+      "reading": "",
+      "writing": "",
+      "speaking": "",
+      "listening": ""
     },
     {
-      "Title": "CEO",
-      "Employer": "Shad (The Student Education Network)",
-      "StartDate": "2019-11",
-      "EndDate": "2021-11",
-      "Description": "In 2020-2021, our application became the most widely used tool in the country, serving as the primary means for students to continue their learning journey from home.\nImplemented aggressive new market strategies that resulted in a revenue increase of 200% above expectations.\nMentored senior managers to enhance employee job satisfaction and performance, leading to improved business outcomes.\nPioneered innovative promotional tactics that expanded customer base, increased market share, and fostered greater engagement and growth.\nSuccessfully negotiated business acquisitions to expand company operations and establish a stronger market presence.\nEffectively managed key partnerships and strategic business relationships, skillfully navigating conflict and negotiating favorable contract terms.",
-      "Technologies": ""
-    },
-    {
-      "Title": "Project Manager, PMO",
-      "Employer": "Mobile Telecommunication Company of Iran",
-      "StartDate": "2018-11",
-      "EndDate": "2019-06",
-      "Description": "Creating tailored user manuals for specific system configurations that catered to individual employee skill profiles.\nEnhancing operational methods and streamlining accounting procedures for improved efficiency.\nDeveloping and leading projects, ensuring efficient cost management and monitoring performance.\nEstablishing and nurturing relationships with material vendors, resulting in cost savings and expanded capabilities.",
-      "Technologies": ""
-    },
-    {
-      "Title": "Front End Developer",
-      "Employer": "Rubika LLC",
-      "StartDate": "2017-12",
-      "EndDate": "2018-07",
-      "Description": "Built a single-page application with multiple views using route services to enhance user experience, utilizing ReactJS and JavaScript (ES6)\nDeveloped front-end user interface components and integrated them with server-side logic using Node.js and Express\nDesigned REST API endpoints for client-side communication using ReactJS, Redux, and RESTful APIs\nUsed Bootstrap and Material UI frameworks for building responsive websites for different devices\nWrote unit tests for each new feature using the Jasmine testing framework\nWorked in a Scrum environment as part of an engineering team, collaborating with other developers and stakeholders to design and implement features\nExperienced in HTML5, CSS3, LESS, and JSON for building and styling web applications\nFamiliarity with GIT and JIRA for source control and tracking purposes\nProficient in Node.js, MongoDB, ReactJS, Redux, Express, and Webpack for building full-stack web applications.",
-      "Technologies": ""
-    },
-    {
-      "Title": "Front-End Developer",
-      "Employer": "Pardis Hooshmand Aseman LLC",
-      "StartDate": "2016-10",
-      "EndDate": "2017-12",
-      "Description": "Designed and developed the React-Redux framework to create scalable applications using component-based architecture\nCreated a search form with various parameters and combinations for data retrieval, utilizing React and RESTful APIs\nWrote, refactored, and tested dozens of new components with a focus on best practices for styling in a large codebase\nDeveloped a rule editor React component for creating and populating rules from API's with conditional statements\nCreated a React-Redux framework to generate dynamic forms, panels, and pages from user configuration files\nExperienced with HTML5, LESS, React, Webpack, NPM, and Yarn for building and styling web applications\nProficient in GIT, JEST, and ESLint for source control, testing, and code quality purposes\nExperienced in Visual Studio Code and IntelliJ for development and debugging purposes."
-    },
-    {
-      "Title": "Front-End Developer",
-      "Employer": "Shegeftangizan LLC",
-      "StartDate": "2014-03",
-      "EndDate": "2016-01",
-      "Description": "Developed, enhanced, and fixed UI bugs using JavaScript, jQuery, React.js, HTML5, and CSS3.\nDesigned and developed RESTful APIs to consume in UI.\nIntegrated user-facing elements with server-side logic using Node.js and Express.\nEnvironment: React.js, Node.js, Express, HTML5, CSS3, JSON, Bootstrap.\nCreated front-end user interface using React.js, HTML5, and LESS to interact with microservices.\nResponsible for styling, look, and feel of the web page with LESS that extends CSS with dynamic behaviors such as variables, mixins, operations, and functions.\nEnvironment: React.js, HTML5, LESS, and MongoDB.",
-      "Technologies": ""
+      "Language": "Turkish",
+      "Level": "Intermediate",
+      "Certificate": "",
+      "score": "",
+      "reading": "",
+      "writing": "",
+      "speaking": "",
+      "listening": ""
     }
   ],
+  "WorkHistory": {
+    "CEO": [
+      {
+        "Title": "CEO",
+        "Employer": "Shad (The Student Education Network)",
+        "StartDate": "2019-11",
+        "EndDate": "2021-11",
+        "Description": "In 2020-2021, our application became the most widely used tool in the country, serving as the primary means for students to continue their learning journey from home.\nImplemented aggressive new market strategies that resulted in a revenue increase of 200% above expectations.\nMentored senior managers to enhance employee job satisfaction and performance, leading to improved business outcomes.\nPioneered innovative promotional tactics that expanded customer base, increased market share, and fostered greater engagement and growth.\nSuccessfully negotiated business acquisitions to expand company operations and establish a stronger market presence.\nEffectively managed key partnerships and strategic business relationships, skillfully navigating conflict and negotiating favorable contract terms.",
+        "Technologies": ""
+      }
+    ],
+    "Project Manager": [],
+    "Others": [
+      {
+        "Title": "Project Manager, PMO",
+        "Employer": "Mobile Telecommunication Company of Iran",
+        "StartDate": "2018-11",
+        "EndDate": "2019-06",
+        "Description": "Creating tailored user manuals for specific system configurations that catered to individual employee skill profiles.\nEnhancing operational methods and streamlining accounting procedures for improved efficiency.\nDeveloping and leading projects, ensuring efficient cost management and monitoring performance.\nEstablishing and nurturing relationships with material vendors, resulting in cost savings and expanded capabilities.",
+        "Technologies": ""
+      },
+
+      {
+        "Title": "Cryptocurrency Trader",
+        "Employer": "Private Customers",
+        "StartDate": "2021-08",
+        "EndDate": "2023-02",
+        "Description": "Compiled and analyzed data to determine approaches to improve performance.\nEducated and worked with clients on ROI terms to find accurate solutions.\nGenerated 250% in revenue by analyzing individual stock, coins and current market conditions in two years.\nPrepared contracts and related documentation according to strict standards.\nComputed total holdings, dividends or commissions to allocate appropriate payments to customers.\nStick Hardly on Risk Management with fewest possible drawdown",
+        "Technologies": ""
+      }
+    ],
+    "Freelance": [
+      {
+        "Title": "Smart Contract developer",
+        "Employer": "Smart Contract developer",
+        "StartDate": "2022-11",
+        "EndDate": "2023-03",
+        "Description": "Implemented Smart Contracts on ethereum, Binance Chain and Layer 2 Blockchains\nCollaborated with Marketing team to review application requirements, plan implementation details and estimate delivery timelines.\nWrote technical documentation to communicate key points to stakeholders.\nBuilt stable and secure systems to translate dense technical topics to stakeholders less versed with blockchain applications.\nImplemented, tested and audited open-source software to interact with on-chain smart contracts.\nLed projects and analyzed data to identify opportunities for improvement.",
+        "Technologies": ""
+      },
+      {
+        "Title": "SPA and Mobile Application for an Ethereum-Based Token",
+        "Employer": "SPA and Mobile Application",
+        "StartDate": "2023-01",
+        "EndDate": "2023-03",
+        "Description": "Utilized ReactJS for building the frontend user interface, providing a seamless and interactive experience on both web and mobile platforms.\nConfigured and deployed the application on an Ubuntu server, ensuring optimal performance and reliability.\nImplemented Nginx as a web server to handle incoming requests and serve the SPA website, while ensuring proper routing for the mobile application.\nSecured the website and mobile application with Certbot, enabling HTTPS encryption and safeguarding user data privacy.\nIntegrated Web3.js library to establish a connection with the Ethereum blockchain network.\nEnabled users to connect their wallets, such as MetaMask, to seamlessly interact with the token functionalities.\nImplemented features for buying, selling, staking, and unstaking the token through connected wallets.\nDesigned the user interface with CSS3 and Material UI, delivering a modern and visually appealing experience on both web and mobile platforms.",
+        "Technologies": ""
+      }
+    ],
+    "Trading": [],
+    "FrontEnd": [
+      {
+        "Title": "Front End Developer",
+        "Employer": "Rubika LLC",
+        "StartDate": "2017-12",
+        "EndDate": "2018-07",
+        "Description": "Built a single-page application with multiple views using route services to enhance user experience, utilizing ReactJS and JavaScript (ES6)\nDeveloped front-end user interface components and integrated them with server-side logic using Node.js and Express\nDesigned REST API endpoints for client-side communication using ReactJS, Redux, and RESTful APIs\nUsed Bootstrap and Material UI frameworks for building responsive websites for different devices\nWrote unit tests for each new feature using the Jasmine testing framework\nWorked in a Scrum environment as part of an engineering team, collaborating with other developers and stakeholders to design and implement features\nExperienced in HTML5, CSS3, LESS, and JSON for building and styling web applications\nFamiliarity with GIT and JIRA for source control and tracking purposes\nProficient in Node.js, MongoDB, ReactJS, Redux, Express, and Webpack for building full-stack web applications.",
+        "Technologies": ""
+      },
+      {
+        "Title": "Front-End Developer",
+        "Employer": "Pardis Hooshmand Aseman LLC",
+        "StartDate": "2016-10",
+        "EndDate": "2017-12",
+        "Description": "Designed and developed the React-Redux framework to create scalable applications using component-based architecture\nCreated a search form with various parameters and combinations for data retrieval, utilizing React and RESTful APIs\nWrote, refactored, and tested dozens of new components with a focus on best practices for styling in a large codebase\nDeveloped a rule editor React component for creating and populating rules from API's with conditional statements\nCreated a React-Redux framework to generate dynamic forms, panels, and pages from user configuration files\nExperienced with HTML5, LESS, React, Webpack, NPM, and Yarn for building and styling web applications\nProficient in GIT, JEST, and ESLint for source control, testing, and code quality purposes\nExperienced in Visual Studio Code and IntelliJ for development and debugging purposes."
+      },
+      {
+        "Title": "Front-End Developer",
+        "Employer": "Shegeftangizan LLC",
+        "StartDate": "2014-03",
+        "EndDate": "2016-01",
+        "Description": "Developed, enhanced, and fixed UI bugs using JavaScript, jQuery, React.js, HTML5, and CSS3.\nDesigned and developed RESTful APIs to consume in UI.\nIntegrated user-facing elements with server-side logic using Node.js and Express.\nEnvironment: React.js, Node.js, Express, HTML5, CSS3, JSON, Bootstrap.\nCreated front-end user interface using React.js, HTML5, and LESS to interact with microservices.\nResponsible for styling, look, and feel of the web page with LESS that extends CSS with dynamic behaviors such as variables, mixins, operations, and functions.\nEnvironment: React.js, HTML5, LESS, and MongoDB.",
+        "Technologies": ""
+      }
+    ]
+  },
   "Education": [
     {
-      "Degree": "Master of Science",
+      "Degree": "MSc",
       "FieldOfStudy": "Management Information Systems",
       "School": "Khaje Nasir Tousi University",
       "StartDate": "2019",
       "EndDate": "2022",
       "Description": "Ranked within the top 5 universities in Iran according to the CWUR"
     },
+
     {
-      "Degree": "Iranian Master Entrance Exam",
-      "FieldOfStudy": "Information Technology",
-      "School": "Top 1% of Iranian Master's Entrance Exam",
-      "StartDate": "2018",
-      "EndDate": "",
-      "Description": "Ranked 519 out of over 614000 participants"
-    },
-    {
-      "Degree": "Bachelor of Science",
+      "Degree": "B.Sc",
       "FieldOfStudy": "Information Technology",
       "School": "University of Ghiaseddin Jamshid Kashani",
       "StartDate": "2012-09",
@@ -109,7 +155,34 @@
   ],
 
   "Skills": {
-    "Soft Skills": [
+    "seasonedSkills": [
+      {
+        "Skill": "JavaScript",
+        "Level": "Advanced",
+        "Details": "In-depth knowledge of JavaScript programming language, including ES6+ features and modern JavaScript frameworks."
+      },
+      {
+        "Skill": "ReactJS",
+        "Level": "Advanced",
+        "Details": "Proficient in developing web applications using ReactJS, a popular JavaScript library for building user interfaces."
+      },
+      {
+        "Skill": "Bash Script",
+        "Level": "Intermediate",
+        "Details": "Ability to write and execute Bash scripts to automate tasks and improve productivity in Unix/Linux environments."
+      },
+      {
+        "Skill": "Attention to Detail",
+        "Level": "Advanced",
+        "Details": "Meticulous in work, pays close attention to accuracy and completeness in all tasks and deliverables."
+      },
+      {
+        "Skill": "Problem-Solving",
+        "Level": "Advanced",
+        "Details": "Analyzes complex problems, identifies root causes, and develops innovative and practical solutions."
+      }
+    ],
+    "SoftSkills": [
       {
         "Skill": "Communication",
         "Level": "Advanced",
@@ -203,7 +276,7 @@
         "Details": "Experience in developing cross-platform mobile applications using React Native framework."
       },
       {
-        "Skill": "Version control (Git)",
+        "Skill": "Version control",
         "Level": "Advanced",
         "Details": "Proficient in using Git version control system for collaborative development and source code management."
       },
@@ -213,7 +286,7 @@
         "Details": "Strong knowledge of HTML5 markup language and its latest features for creating structured web content."
       },
       {
-        "Skill": "User Experience Design",
+        "Skill": "UX",
         "Level": "Intermediate",
         "Details": "Understanding of UX design principles and ability to create intuitive and user-friendly interfaces."
       },
@@ -223,7 +296,7 @@
         "Details": "Expertise in Cascading Style Sheets (CSS3) for styling and layout of web pages with modern design techniques."
       },
       {
-        "Skill": "Less (Stylesheet)",
+        "Skill": "Less",
         "Level": "Intermediate",
         "Details": "Proficient in using Less, a CSS preprocessor, to create more maintainable and modular stylesheets."
       },
@@ -233,7 +306,7 @@
         "Details": "Familiarity with Material-UI library, a popular React component library implementing Material Design."
       },
       {
-        "Skill": "NoSQL (MongoDB)",
+        "Skill": "NoSQL",
         "Level": "Intermediate",
         "Details": "Experience in working with MongoDB, a NoSQL database, for storing and retrieving data in scalable applications."
       },
@@ -253,17 +326,17 @@
         "Details": "Familiar with Webpack, a popular module bundler, for optimizing and bundling JavaScript and CSS assets."
       },
       {
-        "Skill": "API testing tools (e.g., Postman or Insomnia)",
+        "Skill": "API testing tools",
         "Level": "Intermediate",
         "Details": "Experience in using API testing tools like Postman or Insomnia to test and document RESTful APIs."
       },
       {
-        "Skill": "Authentication and Authorization",
+        "Skill": "Authentication",
         "Level": "Intermediate",
         "Details": "Knowledge of common authentication and authorization methods used in web applications."
       },
       {
-        "Skill": "RESTful APIs (Express or Flask)",
+        "Skill": "RESTful APIs",
         "Level": "Intermediate",
         "Details": "Proficient in designing and developing RESTful APIs using frameworks like Express (Node.js) or Flask (Python)."
       }
@@ -330,5 +403,13 @@
         "Details": "Skillful in assessing and managing risks associated with different trading strategies."
       }
     ]
+  },
+  "Unused": {
+    "Degree": "Iranian Master Entrance Exam",
+    "FieldOfStudy": "Information Technology",
+    "School": "Top 1% of Iranian Master's Entrance Exam",
+    "StartDate": "2018",
+    "EndDate": "",
+    "Description": "Ranked 519 out of over 614000 participants"
   }
 }

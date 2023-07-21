@@ -3,29 +3,26 @@ import { experimentalStyled as styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
+import Data from "../lang/en.json";
+import ExperienceCEO from './Stuff/ExperienceCEO';
+import ExOthers from './Stuff/ExOthers';
+import ExFreelance from './Stuff/ExFreelance';
+import ExperienceFrontend from './Stuff/ExperienceFrontend';
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(2),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
 
 export default function ResponsiveGrid() {
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={{ xs: 2, md: 3 }}>
-        <Grid xs={12}>
-          <Item>Experiences1</Item>
-        </Grid>
-        <Grid xs={12}>
-          <Item>Experiences2</Item>
-        </Grid>
-        <Grid xs={12}>
-          <Item>Experiences3</Item>
-        </Grid>
-      </Grid>
-    </Box>
+    <>
+      <ExperienceCEO />
+      <ExperienceFrontend />
+      <ExFreelance />
+      <ExOthers />
+    </>
+
   );
 }

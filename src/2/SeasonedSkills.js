@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Unstable_Grid2";
-import Chip from "./Stuff/Chip";
+import SkillChip from "./Stuff/SkillChip";
 import Data from "../lang/en.json";
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -14,11 +14,11 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function Languages() {
+export default function SeasonedSkills() {
   return (
     <Box sx={{ flexGrow: 1, spacing: 2, m: 2 }}>
-      {Data.Languages.map((LanguageItem, index) => (
-        <Box key={index} sx={{ display: "inline-block", spacing: 2, mx: 2 }}><Chip passData={LanguageItem} />
+      {Data.Skills.seasonedSkills.map((Item, index) => (
+        <Box key={index} sx={{ display: "inline-block", spacing: 1, mx: 0.3 }}><SkillChip passData={Item} />
         </Box>
       ))}
     </Box>
