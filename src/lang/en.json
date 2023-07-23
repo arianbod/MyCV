@@ -224,7 +224,7 @@
         "Details": "Analyzes complex problems, identifies root causes, and develops innovative and practical solutions."
       },
       {
-        "Skill": "Training and Development",
+        "Skill": "Development",
         "Level": "Advanced",
         "Details": "Designs and delivers effective training programs, facilitates learning, and supports professional growth."
       },
@@ -234,7 +234,7 @@
         "Details": "Applies logical and analytical thinking to evaluate situations, generate insights, and make sound decisions."
       },
       {
-        "Skill": "Teamwork and Collaboration",
+        "Skill": "Collaboration",
         "Level": "Advanced",
         "Details": "Collaborates effectively with team members, values diverse perspectives, and achieves common goals."
       },
@@ -334,11 +334,6 @@
         "Skill": "Authentication",
         "Level": "Intermediate",
         "Details": "Knowledge of common authentication and authorization methods used in web applications."
-      },
-      {
-        "Skill": "RESTful APIs",
-        "Level": "Intermediate",
-        "Details": "Proficient in designing and developing RESTful APIs using frameworks like Express (Node.js) or Flask (Python)."
       }
     ],
     "Market Technical Analysis": [

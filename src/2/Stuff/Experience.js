@@ -19,31 +19,23 @@ export default function Experince(props) {
     return (
         <>
 
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1bh-content"
-                    id="panel1bh-header"
-                >
-                    <Typography>
-                        {props.passData.Employer}
-                    </Typography>
-                    <Typography sx={{ color: 'text.secondary' }} variant="body2">{props.passData.Level}</Typography>
-                </AccordionSummary>
-                <AccordionDetails sx={{ textAlign: "left" }}>
-                    <Typography variant="h5" >
-                        {props.passData.Title}
-                    </Typography>
-                    <Typography variant="body2">
-                        {props.passData.StartDate} &nbsp;
-                        {props.passData.EndDate}
-                    </Typography>
-                    <Typography variant="body" sx={{ textAlign: "left" }}>
 
-                        {props.passData.Description}
-                    </Typography>
-                </AccordionDetails>
-            </Accordion>
+            <Typography>
+                {props.passData.Employer}
+            </Typography>
+            <Typography sx={{ color: 'text.secondary' }} variant="body2">{props.passData.Level}</Typography>
+            <Typography variant="h5" >
+                {props.passData.Title}
+            </Typography>
+            <Typography variant="body2">
+                {props.passData.StartDate} &nbsp;
+                {props.passData.EndDate}
+            </Typography>
+            <Typography variant="body" sx={{ textAlign: "left" }}>
+
+                {props.passData.Description}
+            </Typography>
+
         </>
     );
 }

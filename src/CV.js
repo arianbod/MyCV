@@ -40,6 +40,9 @@ const CV = () => {
         <Grid xs={12} sm={6} md={6}>
           <Columns />
         </Grid>
+        <Grid xs={12}>
+          <Experiences />
+        </Grid>
       </Grid>
     </Container >
   );

@@ -20,30 +20,17 @@ export default function ResponsiveGrid() {
   return (
     <>
 
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-        >
-          <Typography>
-            Market Technical Analytics
-          </Typography>
-          <Typography sx={{ color: 'text.secondary' }} variant="body2"></Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={{ xs: 2, md: 3 }}>
-              {Data.Skills["Market Technical Analysis"].map((SkillItem, index) => (
-                <Grid key={index} xs={6} sm={6} xl={6} >
-                  <SkillStuff passData={SkillItem} />
-                </Grid>
-              )
-              )}
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={{ xs: 0 }}>
+          {Data.Skills["Market Technical Analysis"].map((SkillItem, index) => (
+            <Grid key={index} xs={12} md={12} xl={6} >
+              <SkillStuff passData={SkillItem} />
             </Grid>
-          </Box>
-        </AccordionDetails>
-      </Accordion>
+          )
+          )}
+        </Grid>
+      </Box>
+
     </>
 
   );

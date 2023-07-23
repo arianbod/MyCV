@@ -32,10 +32,10 @@ export default function ResponsiveGrid() {
           <Typography sx={{ color: 'text.secondary' }} variant="body2"></Typography>
         </AccordionSummary>
         <AccordionDetails> */}
-      <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={{ xs: 2, md: 3 }}>
+      <Box >
+        <Grid container spacing={{ xs: 0 }}>
           {Data.Skills.SoftSkills.map((SkillItem, index) => (
-            <Grid key={index} xs={6} sm={6} xl={6} >
+            <Grid key={index} xs={12} md={6} xl={6} >
               <SkillStuff passData={SkillItem} />
             </Grid>
           )

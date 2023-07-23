@@ -27,7 +27,7 @@ export default function ExOthers() {
           id="panel1bh-header"
         >
           <Typography>
-            Others
+            PMO & Trading
           </Typography>
           <Typography sx={{ color: 'text.secondary' }} variant="body2"></Typography>
         </AccordionSummary>

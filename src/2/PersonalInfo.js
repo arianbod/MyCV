@@ -36,11 +36,13 @@ export default function PersonalInfo() {
 
                 </h1>
                 <Link href={Data.ContactInformation.SocialMedia.LinkedIn} underline="none">
-                    <Typography display="inline">    <LinkedInIcon color="primary" /></Typography>
+                    <Typography display="inline"><LinkedInIcon color="primary" /></Typography>
                 </Link>
-                <Link href={Data.ContactInformation.SocialMedia.Telegram} underline="none">  <Typography display="inline"><TelegramIcon color="primary" /></Typography>
+                <Link href={Data.ContactInformation.SocialMedia.Telegram} underline="none">
+                    <Typography display="inline"><TelegramIcon color="primary" /></Typography>
                 </Link>
-                <Link href={Data.ContactInformation.SocialMedia.GitHub} underline="none">  <Typography display="inline"><GitHubIcon color="primary" /></Typography>
+                <Link href={Data.ContactInformation.SocialMedia.GitHub} underline="none">
+                    <Typography display="inline"><GitHubIcon color="primary" /></Typography>
                 </Link>
                 <Typography>{Data.Id.Title}</Typography>
 

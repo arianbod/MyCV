@@ -19,13 +19,13 @@ export default function SkillComponent(props) {
     return (
         <>
 
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+            <Accordion square={true} expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                 >
-                    <Typography sx={{ width: '33%', flexShrink: 0 }}>
+                    <Typography sx={{ width: '100%', flexShrink: 0 }}>
                         {props.passData.Skill}
                     </Typography>
                     {/* <Typography sx={{ color: 'text.secondary' }} variant="body2">{props.passData.Level}</Typography> */}
