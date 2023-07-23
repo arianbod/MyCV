@@ -22,7 +22,7 @@ export default function ResponsiveGrid() {
 
       <Grid container spacing={{ xs: 0 }}>
         {Data.Skills.Development.map((SkillItem, index) => (
-          <Grid key={index} xs={12} md={12} lg={6} >
+          <Grid key={index} xs={12} md={6} >
             <SkillStuff passData={SkillItem} />
           </Grid>
         )

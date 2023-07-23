@@ -55,17 +55,17 @@ export default function BasicTabs() {
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="scrollable" allowScrollButtonsMobile
                     scrollButtons>
-                    <Tab label="Technical Skills" {...a11yProps(0)} />
-                    <Tab label="Soft Skills" {...a11yProps(1)} />
+                    <Tab label="Soft Skills" {...a11yProps(0)} />
+                    <Tab label="Technical Skills" {...a11yProps(1)} />
                     <Tab label="Market Analytics Skills" {...a11yProps(2)} />
 
                 </Tabs>
             </Box>
 
-            <CustomTabPanel value={value} index={1}>
+            <CustomTabPanel value={value} index={0}>
                 <SoftSkills />
             </CustomTabPanel>
-            <CustomTabPanel value={value} index={0}>
+            <CustomTabPanel value={value} index={1}>
                 <DevelopmentSkills />
             </CustomTabPanel>
             <CustomTabPanel value={value} index={2}>

@@ -167,19 +167,14 @@
         "Details": "Proficient in developing web applications using ReactJS, a popular JavaScript library for building user interfaces."
       },
       {
+        "Skill": "Next.JS",
+        "Level": "Intermediate",
+        "Details": "Familiar with Next.js, a framework for building server-side rendered and statically generated React applications."
+      },
+      {
         "Skill": "Bash Script",
         "Level": "Intermediate",
         "Details": "Ability to write and execute Bash scripts to automate tasks and improve productivity in Unix/Linux environments."
-      },
-      {
-        "Skill": "Attention to Detail",
-        "Level": "Advanced",
-        "Details": "Meticulous in work, pays close attention to accuracy and completeness in all tasks and deliverables."
-      },
-      {
-        "Skill": "Problem-Solving",
-        "Level": "Advanced",
-        "Details": "Analyzes complex problems, identifies root causes, and develops innovative and practical solutions."
       }
     ],
     "SoftSkills": [
