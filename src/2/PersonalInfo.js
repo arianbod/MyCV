@@ -35,15 +35,17 @@ export default function PersonalInfo() {
                 <h1 class="header-3">{Data.Id.Firstname} {Data.Id.Lastname}
 
                 </h1>
-                <Link href={Data.ContactInformation.SocialMedia.LinkedIn} underline="none">
-                    <Typography display="inline"><LinkedInIcon color="primary" /></Typography>
-                </Link>
-                <Link href={Data.ContactInformation.SocialMedia.Telegram} underline="none">
-                    <Typography display="inline"><TelegramIcon color="primary" /></Typography>
-                </Link>
-                <Link href={Data.ContactInformation.SocialMedia.GitHub} underline="none">
-                    <Typography display="inline"><GitHubIcon color="primary" /></Typography>
-                </Link>
+                <Box p={1}>
+                    <Link href={Data.ContactInformation.SocialMedia.LinkedIn} underline="none">
+                        <Typography display="inline"><LinkedInIcon color="primary" /></Typography>
+                    </Link>
+                    <Link href={Data.ContactInformation.SocialMedia.Telegram} underline="none">
+                        <Typography display="inline"><TelegramIcon color="primary" /></Typography>
+                    </Link>
+                    {/* <Link href={Data.ContactInformation.SocialMedia.GitHub} underline="none">
+                        <Typography display="inline"><GitHubIcon color="primary" /></Typography>
+                    </Link> */}
+                </Box>
                 <Typography>{Data.Id.Title}</Typography>
 
 
