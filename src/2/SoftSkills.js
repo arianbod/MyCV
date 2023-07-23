@@ -12,15 +12,15 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function ResponsiveGrid() {
-  const [expanded, setExpanded] = React.useState(false);
+  // const [expanded, setExpanded] = React.useState(false);
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
+  // const handleChange = (panel) => (event, isExpanded) => {
+  //   setExpanded(isExpanded ? panel : false);
+  // };
   return (
     <>
 
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      {/* <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
@@ -31,19 +31,19 @@ export default function ResponsiveGrid() {
           </Typography>
           <Typography sx={{ color: 'text.secondary' }} variant="body2"></Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={{ xs: 2, md: 3 }}>
-              {Data.Skills.SoftSkills.map((SkillItem, index) => (
-                <Grid key={index} xs={6} sm={6} xl={6} >
-                  <SkillStuff passData={SkillItem} />
-                </Grid>
-              )
-              )}
+        <AccordionDetails> */}
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={{ xs: 2, md: 3 }}>
+          {Data.Skills.SoftSkills.map((SkillItem, index) => (
+            <Grid key={index} xs={6} sm={6} xl={6} >
+              <SkillStuff passData={SkillItem} />
             </Grid>
-          </Box>
-        </AccordionDetails>
-      </Accordion>
+          )
+          )}
+        </Grid>
+      </Box>
+      {/* </AccordionDetails>
+      </Accordion> */}
     </>
 
   );
